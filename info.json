@@ -5,6 +5,7 @@
   "commands":[
     {
       "command": "help",
+      "type": "response",
       "response": [
           "This is a simple and naïve fake console written in JavaScript with jQuery-console.",
           "I'm not good at JavaScript so if you found something wrong please contact me.",
@@ -20,16 +21,13 @@
     },
     {
       "command": "blog",
-      "response": [
-        "Please visit https://v2bv.net"
-      ]
+      "type": "link",
+      "url": "https://v2bv.net"
     },
     {
       "command": "about",
-      "response": [
-        "Chinglish version:\t\thttps://v2bv.net/about",
-        "Chinese version:\t\t\thttps://v2bv.net/about-zh"
-      ]
+      "type": "link",
+      "url": "https://v2bv.net/about"
     },
     {
       "command": "resume",
@@ -39,15 +37,13 @@
     },
     {
       "command": "download",
-      "response": [
-        "Please visit https://dl.v2bv.net"
-      ]
+      "type": "link",
+      "url": "https://dl.v2bv.net"
     },
     {
       "command": "mastodon",
-      "response": [
-        "Please visit https://s.brined.fish/@KayMW"
-      ]
+      "type": "link",
+      "url": "https://s.brined.fish/@KayMW"
     }
   ]
 }

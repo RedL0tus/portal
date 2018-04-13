@@ -11,7 +11,14 @@ function response(line, config) {
   }
   for (let i = 0; i < config.commands.length; i += 1) {
     if (line === config.commands[i].command) { // Read every elements in the array.
-      return config.commands[i].response.join('\n');
+      if (config.commands[i].type === 'response') {
+        return config.commands[i].response.join('\n');
+      } else if (config.commands[i].type === 'link') {
+        window.open(config.commands[i].url, '_blank');
+        return '';
+      } else {
+        return '';
+      }
     }
   }
   return 'Command not found: '.concat(line); // When a command can't be found
