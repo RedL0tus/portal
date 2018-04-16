@@ -22,12 +22,18 @@
     {
       "command": "blog",
       "type": "link",
-      "url": "https://v2bv.net"
+      "url": "https://v2bv.net",
+      "response": [
+        "Link opened in a new tab."
+      ]
     },
     {
       "command": "about",
       "type": "link",
-      "url": "https://v2bv.net/about"
+      "url": "https://v2bv.net/about",
+      "response": [
+        "Link opened in a new tab."
+      ]
     },
     {
       "command": "resume",
@@ -38,12 +44,18 @@
     {
       "command": "download",
       "type": "link",
-      "url": "https://dl.v2bv.net"
+      "url": "https://dl.v2bv.net",
+      "response": [
+        "Link opened in a new tab."
+      ]
     },
     {
       "command": "mastodon",
       "type": "link",
-      "url": "https://s.brined.fish/@KayMW"
+      "url": "https://s.brined.fish/@KayMW",
+      "response": [
+        "Link opened in a new tab."
+      ]
     }
   ]
 }

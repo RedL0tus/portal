@@ -15,7 +15,11 @@ function response(line, config) {
         return config.commands[i].response.join('\n');
       } else if (config.commands[i].type === 'link') {
         window.open(config.commands[i].url, '_blank');
-        return '';
+        if (typeof config.commands[i].response !== 'undefined') {
+          return config.commands[i].response.join('\n');
+        } else {
+          return '';
+        }
       } else {
         return '';
       }
