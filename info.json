@@ -37,6 +37,7 @@
     },
     {
       "command": "resume",
+      "type": "response",
       "response": [
         "To be continued..."
       ]
