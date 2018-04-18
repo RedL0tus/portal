@@ -12,10 +12,11 @@
           "This site is kinda resume-like thing.",
           "Command list:",
           "help:\t\t\t\t\t\tshow this help.",
-          "blog:\t\t\t\t\t\tshow my blog's link.",
-          "about:\t\t\t\t\t show my about page's link.",
+          "blog:\t\t\t\t\t\tshow my blog.",
+          "about:\t\t\t\t\t show my about page.",
+          "about-zh:\t\t\t\tshow Chinese version of my about page.",
           "resume:\t\t\t\t\tshow the resume.",
-          "download:\t\t\t\tshow my download site's link.",
+          "download:\t\t\t\tshow my download site.",
           "mastodon:\t\t\t\tshow my mastodon account."
         ]
     },
@@ -35,6 +36,14 @@
         "Link opened in a new tab."
       ]
     },
+    {
+      "command": "about-zh",
+      "type": "link",
+      "url": "https://v2bv.net/about-zh",
+      "response": [
+        "Link opened in a new tab."
+      ]
+    }
     {
       "command": "resume",
       "type": "response",
