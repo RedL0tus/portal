@@ -43,7 +43,7 @@
       "response": [
         "Link opened in a new tab."
       ]
-    }
+    },
     {
       "command": "resume",
       "type": "response",
