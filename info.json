@@ -17,7 +17,8 @@
           "about-zh:\t\t\t\tshow Chinese version of my about page.",
           "resume:\t\t\t\t\tshow the resume.",
           "download:\t\t\t\tshow my download site.",
-          "mastodon:\t\t\t\tshow my mastodon account."
+          "mastodon:\t\t\t\tshow my mastodon account.",
+          "minecraft:\t\t\t show my Minecraft(TM) server."
         ]
     },
     {
@@ -63,6 +64,14 @@
       "command": "mastodon",
       "type": "link",
       "url": "https://s.brined.fish/@KayMW",
+      "response": [
+        "Link opened in a new tab."
+      ]
+    },
+    {
+      "command": "minecraft",
+      "type": "link",
+      "url": "https://mc.v2bv.net",
       "response": [
         "Link opened in a new tab."
       ]
